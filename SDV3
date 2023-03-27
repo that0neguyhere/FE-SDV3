@@ -383,7 +383,7 @@ gun.att1_Handle.Position = Vector3.new(0,0,0) --PlaneModel
 		chatinput = surfacegui.input
 		chatbox = surfacegui.chatbox
 
-       game:GetService("Players").LocalPlayer.Character["PlaneModel"].Handle.att1_Handle.Parent = chat
+       game:GetService("Players").LocalPlayer.Character["Wings"].Handle.att1_Handle.Parent = chat
        chat.att1_Handle.Rotation = Vector3.new(-0,90,-90)
        chat.att1_Handle.Position = Vector3.new(0,0,-0) 
 
