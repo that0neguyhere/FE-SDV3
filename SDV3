@@ -384,8 +384,8 @@ gun.att1_Handle.Position = Vector3.new(0,0,0) --PlaneModel
 		chatbox = surfacegui.chatbox
 
        game:GetService("Players").LocalPlayer.Character["Wings"].Handle.att1_Handle.Parent = chat
-       chat.att1_Handle.Rotation = Vector3.new(-0,90,-90)
-       chat.att1_Handle.Position = Vector3.new(0,0,-0) 
+       chat.att1_Handle.Rotation = Vector3.new(0,0,0)
+       chat.att1_Handle.Position = Vector3.new(0,0,0) 
 
 		if chatting then
 			chatinput.Text = chattext 
